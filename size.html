@@ -5,8 +5,9 @@
         <style>
             div {
                 background-image:url(tiger.jpg);
-                width: 100vw;
-                height: 100vh;
+                width: fit-content;
+                height: 750px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 text-decoration: aqua;
                 text-align: center;
             }
@@ -15,6 +16,29 @@
     <body>
         <div>
           Welcome to my page
+          <form>
+            <input type="name" placeholder="Full Name" name="name">
+            <input type="password" placeholder="password" name="password">
+            <input type="countries" list="countries" placeholder="countries">
+            <input type="SUBMIT">
+            <datalist id="countries">
+                <option value="Kenya">
+                <option value="Uganda">
+                <option value="Tanzania">
+                <option value="Rwanda">
+                <option value="Burundi">
+                <option value="South Sudan">
+                <option value="Ethiopia">
+                </option>    
+                </option>    
+                </option>    
+                </option>    
+                </option>   
+                </option>    
+                </option>
+            </datalist>
+         </form> 
         </div>
+     </form>    
     </body>
 </html>
